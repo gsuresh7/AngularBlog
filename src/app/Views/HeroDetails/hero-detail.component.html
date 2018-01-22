@@ -1,0 +1,15 @@
+<div *ngIf="hero">
+      <h2>{{hero.Name}} details!</h2>
+      <div><label>id: </label>{{hero.Id}}</div>
+      <div>
+        <label>name: </label>
+        <input [(ngModel)]="hero.Name" placeholder="Name"/>
+        
+      </div>
+      <div><label>PD: </label>{{Checkit}}</div>
+</div>
+   
+        <button (click)="goBack()">Back</button>
+        <button (click)="save()" *ngIf="FromHero">Save By Child</button>
+        <button (click)="add.emit(hero)" *ngIf="!FromHero">Save By Parent</button>
+       
