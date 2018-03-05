@@ -15,7 +15,7 @@ export class StockNumbersComponent implements OnInit {
   constructor(private heroService: HeroService) { }
 
   ngOnInit(): void {
-    this.heroService.getStocks()
-      .then(heroes => this.heroes = heroes);
+    //this.heroService.getStocks()
+      //.then(heroes => this.heroes = heroes);
   }
 }

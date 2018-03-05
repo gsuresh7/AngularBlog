@@ -8,7 +8,7 @@ import { Component,OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'Welcome to ICF backend POC1';
+  title = 'Welcome to AngularJS Sample real time App';
   isDarkTheme: boolean = false;
 
   images: any[];

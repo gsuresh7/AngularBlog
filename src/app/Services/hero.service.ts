@@ -10,7 +10,7 @@ import 'rxjs/add/operator/toPromise';
 @Injectable()
 export class HeroService {
  private heroesUrl = 'http://localhost:50524/api/Authors';  // URL to web api
-  private StocksUrl = 'http://localhost:50524/api/Authors?gettaskstest=test'; 
+  //private StocksUrl = 'http://localhost:50524/api/Authors?gettaskstest=test'; 
  
 constructor(private http: Http) { }
  
@@ -25,12 +25,12 @@ getHeroes(): Promise<Hero[]> {
              .catch(this.handleError);
 }
  
-getStocks(): Promise<StockNumber[]> {
+/*getStocks(): Promise<StockNumber[]> {
   return this.http.get(this.StocksUrl)
              .toPromise()
              .then(response => response.json() as StockNumber[])
              .catch(this.handleError);
-}
+}*/
 
 private handleError(error: any): Promise<any> {
   console.error('An error occurred', error); // for demo purposes only
