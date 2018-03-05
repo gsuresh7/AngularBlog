@@ -1,3 +1,14 @@
+Current poster boy in today’s web develop is AngularJS. It’s been a buzzing bee around the industry with its disruptive technical nature and benefits. Well, I don’t want to go into details explaining what is AngularJS2 now for which we already have https://angular.io/  and moreover the context which I want to depict here is knowledge sharing aspect for associate who has AngularJS basics.
+
+We do have “Tour of Heroes” explained with https://angular.io/ as its primary starter but I feel it can be improved for any beginner to start real time project. So I have created AngularJS2 project with basic CRUD along with the touch of Dot Net WebAPI handling its communication and data. This is the most common combination of real time AngularJS2 development as per me(ofcourse i am .net guy) and I hope this can take you to next step with the kind of AngularJS2 knowledge/samples crunch in Google
+
+Go grab your copy @
+
+AngularJS2 Sample App: https://github.com/gsuresh7/AngularBlog
+
+Dot Net WebAPI app: https://github.com/gsuresh7/WebApi_Service_Source_Angular
+
+
 # MyAngular2App
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.0.
